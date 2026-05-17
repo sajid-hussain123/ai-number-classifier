@@ -28,7 +28,7 @@ def predict():
 
     category = clf.predict(new_data)[0]
 
-    return f'The predicted category is: {category}'
+    return f'Develope by Sajid The Mobile number should be in category: {category}'
 
 if __name__ == '__main__':
     app.run(debug=True)
